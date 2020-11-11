@@ -129,5 +129,12 @@ public interface Tree<E> {
    */
   public int height();
 
+  /** Removes node and inserts it into a new parent */
+  /**
+   *
+   * @param existingPosition of the treeNode
+   * @param newParent of the moving treeNode
+   */
+  void move(Position<E> existingPosition, Position<E> newParent);
   }
 

@@ -301,6 +301,11 @@ public class TreeLinked<E> implements Tree<E> {
         return str + "-";
     }
 
+    @Override
+    public void move(Position<E> existingPosition, Position<E> newParent) {
+
+    }
+
     /**
      * inner class - represent a node of a tree. Each node have a list of children, that can be empty.
      */
